@@ -1,5 +1,7 @@
 # Login-RegisterPage
 This is a web application showcasing user authentication using Express.js, Passport.js, and PostgreSQL as the database.
+![image](https://github.com/ozgeerkskn/Login-RegisterPage/assets/105421946/815338cd-2082-46d9-8bfc-6644accb841f)
+
 
 ![image](https://github.com/ozgeerkskn/Login-RegisterPage/assets/105421946/0073d95a-5385-40f6-8227-d35aeb9e7353)
 
