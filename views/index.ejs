@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #303030;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+      }
+
+      h1 {
+        margin: 20px 0;
+        color: #ffffff;
+      }
+
+      .button-container {
+        display: flex;
+        gap: 20px;
+      }
+
+      .login-button,
+      .register-button {
+        background-color: #4bd3d5;
+        color: #060606;
+        padding: 20px 30px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .login-button:hover,
+      .register-button:hover {
+        background-color: #119da2;
+      }
+
+      .fa-lock,
+      .fa-user-plus {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WELCOME</h1>
+    <div class="button-container">
+      <a href="/users/login" class="login-button">
+        <i class="fas fa-lock"></i> Login
+      </a>
+      <a href="/users/register" class="register-button">
+        <i class="fas fa-user-plus"></i> Register
+      </a>
+    </div>
+  </body>
+</html>
